@@ -39,7 +39,7 @@ wet_cal = 25500
 adcpin = 28
 moist = ADC(adcpin)
 
-#Enviando dados
+#Zend gegevens
 while True:
     adc_value = moist.read_u16()
         
